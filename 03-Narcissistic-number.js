@@ -8,7 +8,7 @@ function narcissistic(value) {
     let myArr = String(value).split("").map((value)=>{
     return Number(value)
     })   
-//   console.log(myArr)  
+  console.log(myArr)  
 
     const exp = myArr.length;
 //   console.log(exp)
